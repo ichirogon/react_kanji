@@ -1,7 +1,24 @@
-.App {
-  text-align: center;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+.App {
 
+  text-align: center;
+
+}
+.container {
+  display: flex;
+  background-image: url('./assets/images/fflindblum.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

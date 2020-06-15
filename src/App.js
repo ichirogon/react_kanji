@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Route, Switch, Redirect, BrowserRouter} from 'react-router-dom';
+import Container from './Components/Container/Container';
+import Login from './Components/Login/Login';
+import Home from './Components/Home/Home';
+import Kanji from './Components/Kanji/Kanji'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>  
+        <Container>
+          <Switch>
+            <Route path="/Home" component={Home}/>
+            <Route path="/Login" component={Login}/>
+            <Route path="/Kanji" component={Kanji}/>
+            <Redirect to="/Home"/>
+          </Switch>
+        </Container>
+      </BrowserRouter>
     </div>
   );
 }

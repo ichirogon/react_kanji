@@ -1,0 +1,17 @@
+/* .helloWorld {
+    text-align: center;
+} */
+
+.blue {
+    color: blue
+
+}
+
+.green {
+    color: green
+}
+.greet {
+    margin: 100px 
+    /* margin: 10px 10px 10px 10px
+    top bottom left right */
+}
