@@ -19,7 +19,7 @@ function Menu() {
     <NavLink to="/Login" activeClassName="active">Login</NavLink>
     <NavLink to="/Kanji" activeClassName="active">Kanji</NavLink>
     <div className="cursor" >About</div>
-    <img src="/../../shiro.jpg" alt='pene'/>
+    <img src="/../../shiro.jpg" alt=''/>
     
 </div>
 

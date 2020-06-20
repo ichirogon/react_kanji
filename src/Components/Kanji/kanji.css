@@ -1,3 +1,114 @@
-.big_white {
-    margin: 20px 40px;
+.main {
+  margin: 20px 40px;
+}
+
+.red {
+  color: red;
+}
+
+.violeta-mod {
+  padding: 10px;
+  color: violet;
+  text-align: center;
+}
+
+.wellcome {
+  background-color: pink;
+  border-style: solid;
+  letter-spacing: 10px;
+  opacity: 0.7;
+  border-radius: 100px;
+}
+.wellcome:hover {
+  opacity: 100;
+}
+
+.letter_kanjis_add {
+  /* overflow-y: scroll; */
+  text-align: justify;
+  font-weight: bold;
+  /* font-size: 30px; */
+  color: red;
+  margin-top: 20px;
+  /* padding: 30px; */
+}
+.scroll {
+  width: 500px;
+  height: 150px;
+  overflow-y: scroll;
+  overflow-x: none;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(0, 102, 128);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(86, 65, 163);
+  border-radius: 10px;
+}
+th {
+  background-color: pink;
+  opacity: 0.7;
+  border-collapse: collapse;
+  margin-left: 10px;
+  cursor: text;
+}
+td {
+  background-color: violet;
+  opacity: 0.7;
+  border-collapse: collapse;
+  border-radius: 20%;
+  margin-left: 10px;
+}
+
+td:hover {
+  background-color: lightblue;
+  cursor: text;
+}
+
+.delete {
+  background-color: red;
+  border-color: black;
+  /* color: green; */
+  border-style: solid;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.delete:hover {
+  background-color: rgb(209, 1, 1);
+}
+.update {
+  background-color: yellow;
+  border-color: black;
+  /* color: green; */
+  border-style: solid;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.update:hover {
+  background-color: rgb(196, 196, 0);
+}
+
+.create {
+  background-color: yellowgreen;
+  border-color: black;
+  /* color: green; */
+  border-style: solid;
+  cursor: pointer;
+  border-radius: 20%;
+  margin-left: 10px;
+  padding: 10px 10px;
+}
+.create:hover {
+  background-color: green;
 }
